@@ -1,0 +1,16 @@
+extends includes/layout.pug
+
+block content
+  #tags-chart(data-length="10" style="height: 300px; padding: 10px;")
+  if theme.tag_ui == 'index'
+    include ./includes/mixins/post-ui.pug
+    #recent-posts.recent-posts
+      +postUI
+      include includes/pagination.pug
+  else
+    include ./includes/mixins/article-sort.pug
+    #tag
+      .article-sort-title= _p('page.tag') + ' - ' + page.tag
+      +articleSort(page.posts)
+      <div id="tags-chart" data-length="10" style="height: 300px; padding: 10px;"></div>
+      include includes/pagination.pug
