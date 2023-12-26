@@ -4,7 +4,7 @@ comments: true
 categories: [Java]
 tags: [Java,JVM]
 https: //api.r10086.com/樱道随机图片api接口.php?图片系列=动漫综合2
-cover: https://api.r10086.com/樱道随机图片api接口.php?图片系列=动漫综合2
+cover: https://api.r10086.com/樱道随机图片api接口.php?图片系列=动漫综合5
 ---
 > 深入理解Java虚拟机：JVM高级特性与最佳实践（第3版）周志明 著 ——学习笔记
 
