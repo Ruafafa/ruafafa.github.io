@@ -4,7 +4,7 @@ name: 自动部署
 on:
   push:
     branches:
-      - master #2020年10月后github新建仓库默认分支改为main，注意更改
+      - build #2020年10月后github新建仓库默认分支改为main，注意更改
 
   release:
     types:
