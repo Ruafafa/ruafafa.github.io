@@ -1,5 +1,5 @@
 ---
-title: 从零开始的Aliyun Linux服务器实战-1.安装Docker、nacos
+title: 从零开始的微服务实战-1. Nacos部署
 comments: true
 categories: 
   - [实战]
@@ -10,7 +10,7 @@ tags:
 updated: 2023-12-26 19:19:38
 cover: https://ruafafa-photobed.oss-cn-beijing.aliyuncs.com/202312261919952.png
 ---
-
+## 在Alibaba Cloud Linux3 上部署 Docker、Nacos
 ### 安装Docker
 
 官方首推的安装方式是安装Docker Desktop，但是我们只希望安装 Docker Engine， Docker Engine 和 Docker Desktop区别见。[FAQs for Docker Desktop for Linux | Docker Docs --- 适用于 Linux 的 Docker Desktop 常见问题解答 |Docker 文档](https://docs.docker.com/desktop/faqs/linuxfaqs/#what-is-the-difference-between-docker-desktop-for-linux-and-docker-engine)
