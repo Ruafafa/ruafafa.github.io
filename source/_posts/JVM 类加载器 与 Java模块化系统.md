@@ -3,6 +3,7 @@ title: JVM 类加载器 与 Java模块化系统
 comments: true
 categories: [Java]
 tags: [Java,JVM]
+updated: 2021-08-26 16:46:38
 cover: https://ruafafa-photobed.oss-cn-beijing.aliyuncs.com/illust_111121482_20230925_001424.jpg
 ---
 > Java 虚拟机设计团队有意把类加载阶段中的“通过一个类的全限定名来获取描述该 类的二进制字节流”这个动作放到 Java 虚拟机外部去实现，以便让应用程序自己决定如 何去获取所需的类。**实现这个动作的代码被称为“类加载器”（Class Loader）。 **  *// 类加载器是一段代码*
