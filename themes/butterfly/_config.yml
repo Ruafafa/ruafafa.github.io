@@ -24,7 +24,7 @@ menu:
 highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
-highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_shrink: true # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_height_limit: false # unit: px
 code_word_wrap: false
 
@@ -938,12 +938,7 @@ inject:
     # live2d
     - <script src="https://cdn.jsdelivr.net/gh/Garen-Wang/live2d-moc3@vv0.1.1/js/live2dcubismcore.js"></script>
     - <script src="https://cdn.jsdelivr.net/gh/Garen-Wang/live2d-moc3@vv0.1.1/js/bundle.js"></script>
-    - <script>
-        var resourcesPath = 'https://cdn.jsdelivr.net/gh/Ruafafa/live2d_modules@master/'; 
-        var backImageName = ''; 
-        var modelDir = ['Murasame_Yukata'];
-        initDefine(resourcesPath, backImageName, modelDir);
-      </script>
+    - <script defer src="/js/live2d.js"></script>
     # 节日弹窗 
     - <script defer type="text/javascript" src="https://cdn1.tianli0.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script> # 节日弹窗依赖
     - <script defer src="/js/lunar.js"></script> # 农历计算

@@ -15,7 +15,7 @@ cover: https://ruafafa-photobed.oss-cn-beijing.aliyuncs.com/202312261919952.png
 
 官方首推的安装方式是安装Docker Desktop，但是我们只希望安装 Docker Engine， Docker Engine 和 Docker Desktop区别见。[FAQs for Docker Desktop for Linux | Docker Docs --- 适用于 Linux 的 Docker Desktop 常见问题解答 |Docker 文档](https://docs.docker.com/desktop/faqs/linuxfaqs/#what-is-the-difference-between-docker-desktop-for-linux-and-docker-engine)
 
-我们通过 Linux 的包管理工具安装，这里笔者使用的是 Alibaba Cloud Linux 3.2104 LTS 64位，查阅和发现建议使用新一代的rpm软件包管理器安装社区版Docker(docker-ce)^1^，通过工具安装即可
+我们通过 Linux 的包管理工具安装，这里笔者使用的系统是 Alibaba Cloud Linux 3.2104 LTS 64位，查阅和发现建议使用新一代的rpm软件包管理器安装社区版Docker(docker-ce)^1^，通过工具安装即可
 
 ```shell
 # 安装 dnf
