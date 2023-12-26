@@ -841,7 +841,7 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
     # - xxxx
     # - xxxx
@@ -931,14 +931,17 @@ inject:
     # 例如添加 ?1 ,在修改此文件后改成 ?2 ,用户访问你的网站时,不会使用本地的缓存,而是请求新的内容。没修改的话就不用动。
   bottom:
     # aplayer
-    - <div class="aplayer no-destroy" data-id="8833010059" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
-    - <canvas id="live2d" width="600" height="600" class="live2d" style="position:fixed;opacity:1; left:-110px; bottom:-360px; z-index:99999; pointer-events:none;"></canvas>
+    - <div class="aplayer no-destroy" data-id="8833010059" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="false" muted></div>
+    - <link rel="stylesheet" href="/css/aplayer.css">
+    - <script src="/js/music.js"></script>
+    - <script src="/js/play.js"></script>
     # 挂绳
     - <script defer data-pjax src="/js/scroll.js"></script>
     # live2d
     - <script src="https://cdn.jsdelivr.net/gh/Garen-Wang/live2d-moc3@vv0.1.1/js/live2dcubismcore.js"></script>
     - <script src="https://cdn.jsdelivr.net/gh/Garen-Wang/live2d-moc3@vv0.1.1/js/bundle.js"></script>
-    - <script defer src="/js/live2d.js"></script>
+    - <canvas id="live2d" width="600" height="600" class="live2d" style="position:fixed;opacity:1; left:-110px; bottom:-360px; z-index:99999; pointer-events:none;"></canvas>
+    - <script src="/js/live2d.js"></script>
     # 节日弹窗 
     - <script defer type="text/javascript" src="https://cdn1.tianli0.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script> # 节日弹窗依赖
     - <script defer src="/js/lunar.js"></script> # 农历计算
@@ -975,8 +978,8 @@ CDN:
     # activate_power_mode:
     # algolia_js:
     # algolia_search:
-    # aplayer_css:
-    # aplayer_js:
+#     aplayer_css: /css/aplayer.css
+#     aplayer_js: /js/addnodestory.js
     # artalk_css:
     # artalk_js:
     # blueimp_md5:
