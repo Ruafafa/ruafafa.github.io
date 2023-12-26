@@ -4,24 +4,28 @@
 
 ### About me
 
-<div><img align="right" alt="GIF" src="asset/112220559.gif" width="300" height="100%" /></div>
+<div><img align="right" alt="GIF" src="asset/112220559.gif" width="200" height="100%" /></div>
+
+<br>
 
 - 🏫 [TYUT](https://www.tyut.edu.cn/) • Software engineering
 - 💻 Java • DevOps 
 - 🎮 Music • Games • Comic • Anime • Code • Art
 - 💖 May all the beauty be blessed +
+  
+<br>
 
 ---
 
 ### Find me？
 
-<div><img align="center" alt="GIF" src="asset/113762317.gif" width="300" height="100%" style="margin-left:20%" /></div>
+<div><img align="left" alt="GIF" src="asset/113762317.gif" width="200" height="100%"  left="100px"/></div>
 <div>
-<p align="center"><a href="https://www.fomal.cc" ><img height="22" width="22" src="https://www.fomal.cc/favicon.ico">Ruafafa-博客</a>●</p>
-<p align="center"><a href="https://space.bilibili.com/220757832"><img height="22" width="22" src="https://www.bilibili.com/favicon.ico">Bilibili-哔哩哔哩</a>●</p>
-<p align="center"><a href="https://leetcode.cn/u/fomalhaut1998/"><img height="22" width="22" src="https://leetcode.cn/favicon.ico">LeetCode-力扣</a>●</p>
-<p align="center"><a href="https://leetcode.cn/u/fomalhaut1998/"><img height="22" width="22" src="https://static.nowcoder.com/fe/file/images/nowpick/web/www-favicon.ico">Nowcoder-牛客</a>●</p>
-<p align="center"><a href="https://steamcommunity.com/profiles/76561198974921306/"><img height="22" width="22" src="https://steamcommunity.com/favicon.ico">Steam-Ruafafa</a>●</p>
+<p align="right"><a href="https://ruafafa.github.io/" >HomePage ——> Ruafafa  |<img height="22" width="22" src="https://www.fomal.cc/favicon.ico"></a>  ●</p>
+<p align="right"><a href="https://space.bilibili.com/220757832">Space ——> Bilibili  |<img height="22" width="22" src="https://www.bilibili.com/favicon.ico"></a>  ●</p>
+<p align="right"><a href="https://leetcode.cn/u/fomalhaut1998/">Space ——> LeetCode  |<img height="22" width="22" src="https://leetcode.cn/favicon.ico"></a>  ●</p>
+<p align="right"><a href="https://leetcode.cn/u/fomalhaut1998/">Space ——> Nowcoder  |<img height="22" width="22" src="https://static.nowcoder.com/fe/file/images/nowpick/web/www-favicon.ico"></a>  ●</p>
+<p align="right"><a href="https://steamcommunity.com/profiles/76561198974921306/">Space ——> Steam-Ruafafa  |<img height="22" width="22" src="https://steamcommunity.com/favicon.ico"></a>  ●</p>
 </div>
 
 
