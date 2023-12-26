@@ -2,7 +2,7 @@
 <a title="Chinese" href="/README_CN.md">中文</a>
 </div>
 
-# hexo-theme-butterfly
+# hexo-theme-butterfly1
 
 ![master version](https://img.shields.io/github/package-json/v/jerryc127/hexo-theme-butterfly/master?color=%231ab1ad&label=master)
 ![master version](https://img.shields.io/github/package-json/v/jerryc127/hexo-theme-butterfly/dev?label=dev)
