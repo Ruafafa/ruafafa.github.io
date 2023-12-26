@@ -2,7 +2,7 @@
 
 <h1 align="center">Hi，I'm <a href="https://ruafafa.github.io/" style="text-decoration: none;">Ruafafa！</a></h1><hr>
 
-### About me
+### 📚 About me
 
 <div><img align="right" alt="GIF" src="asset/112220559.gif" width="200" height="100%" /></div>
 
@@ -12,12 +12,13 @@
 - 💻 Java • DevOps 
 - 🎮 Music • Games • Comic • Anime • Code • Art
 - 💖 May all the beauty be blessed +
-  
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 <br>
 
 ---
 
-### Find me？
+### 💌 Find me？
 
 <div><img align="left" alt="GIF" src="asset/113762317.gif" width="200" height="100%"  left="100px"/></div>
 <div>
