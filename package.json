@@ -15,7 +15,6 @@
     "cheerio": "^1.0.0-rc.12",
     "hexo": "^7.0.0",
     "hexo-bilibili-bangumi": "^1.8.9",
-    "hexo-butterfly-categories-card": "^1.0.0",
     "hexo-butterfly-tag-plugins-plus": "^1.0.17",
     "hexo-butterfly-wowjs": "^1.0.5",
     "hexo-generator-archive": "^2.0.0",
