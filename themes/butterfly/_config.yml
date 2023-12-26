@@ -218,7 +218,7 @@ footer:
 aside:
   enable: true
   hide: false
-  button: true
+  button: false
   mobile: true # display on mobile
   position: left # left or right
   display:
