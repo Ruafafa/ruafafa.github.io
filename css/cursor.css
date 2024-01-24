@@ -1,0 +1,7 @@
+body {
+    cursor:url(https://cdn.jsdelivr.net/gh/Ruafafa/live2d_modules@master/cursor/ssbu/normal.cur) 1 1,auto;
+}
+a,img,button,li,path{
+    cursor:url(https://cdn.jsdelivr.net/gh/Ruafafa/live2d_modules@master/cursor/ssbu/unavailable.cur) 1 1,auto!important;
+}
+    
