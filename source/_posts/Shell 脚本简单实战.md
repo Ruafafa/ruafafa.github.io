@@ -1,10 +1,12 @@
 ---
-title:  Shell 编程简单实战
+title: Shell 编程简单实战
 comments: 
-categories: [doc]
+categories: 
+  - [doc]
 tags: 
   - 语言
 date: 2024-04-01 16:46:38
+updated: 2024-04-02 16:46:38
 ---
 
 [TOC]
