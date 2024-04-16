@@ -1,11 +1,10 @@
 ---
 title:  Lua脚本快速入门
 comments: 
-categories: 
-  - [doc]
+categories: [doc]
 tags: 
   - 语言
-updated: 2024-04-02 16:46:38
+date: 2024-04-02 16:46:38
 ---
 
 [TOC]
