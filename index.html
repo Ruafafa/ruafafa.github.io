@@ -1,0 +1,507 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Ruafafa</title><meta name="author" content="Ruafafa,wangyisen6170@outlook.com"><meta name="copyright" content="Ruafafa"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="Ruafafaの个人博客">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ruafafa">
+<meta property="og:url" content="https://ruafafa.github.io/index.html">
+<meta property="og:site_name" content="Ruafafa">
+<meta property="og:description" content="Ruafafaの个人博客">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://q.qlogo.cn/headimg_dl?dst_uin=1540588520&spec=640&img_type=jpg">
+<meta property="article:author" content="Ruafafa">
+<meta property="article:tag" content="Java">
+<meta property="article:tag" content="Blog">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://q.qlogo.cn/headimg_dl?dst_uin=1540588520&spec=640&img_type=jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://ruafafa.github.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Ruafafa',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: true,
+  isToc: false,
+  postUpdate: '2024-05-04 23:19:59'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/background.css"><script src="/js/background.css"></script><script src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js"></script><link rel="stylesheet" href="/css/loading.css"><link rel="stylesheet" href="/css/cursor.css?1"><link rel="stylesheet" href="/css/scroll.css"><link rel="stylesheet" href="/css/avator.css"><link rel="stylesheet" href="/css/page.css"><link rel="stylesheet" href="/css/custom.css"><link rel="stylesheet" href="/css/footer.css"><script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script><div id="myscoll"></div><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.0.0"></head><body><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><div class="loading-img"></div><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+document.addEventListener('pjax:send', () => {
+  Pace.restart()
+})
+</script><link rel="stylesheet" href="/css/progress_bar.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://q.qlogo.cn/headimg_dl?dst_uin=1540588520&amp;spec=640&amp;img_type=jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">9</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-yuanchengkaimen"></i><span> 休息室</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw iconfont icon-ziliaodayin"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw iconfont icon-biaoqian"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw iconfont icon-jishiben"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw iconfont icon-yu"></i><span> 摸鱼</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw iconfont fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw iconfont fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/bangumis/"><i class="fa-fw iconfont icon-xihuan"></i><span> 追番表</span></a></div></div></div></div><div class="page home" id="body-wrap"><header class="full_page" id="page-header" style="background: transparent"><nav id="nav"><span id="blog-info"><a href="/" title="Ruafafa"><img class="site-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/favicon.png"/><span class="site-name">Ruafafa</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-yuanchengkaimen"></i><span> 休息室</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw iconfont icon-ziliaodayin"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw iconfont icon-biaoqian"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw iconfont icon-jishiben"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw iconfont icon-yu"></i><span> 摸鱼</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw iconfont fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw iconfont fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/bangumis/"><i class="fa-fw iconfont icon-xihuan"></i><span> 追番表</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Ruafafa</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/Ruafafa" target="_blank" title="Github"><i class="iconfont icon-github" style="color: #24292e;"></i></a><a class="social-icon" href="https://wpa.qq.com/msgrd?v=3&amp;uin=1540588520&amp;site=qq&amp;menu=yes" target="_blank" title="QQ"><i class="iconfont icon-QQ" style="color: #4a7dbe;"></i></a><a class="social-icon" href="mailto:wangyisen6170@gmail.com" target="_blank" title="Email"><i class="iconfont icon--email" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://space.bilibili.com/262427978" target="_blank" title="BiliBili"><i class="iconfont icon-icon_bilibili" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://steamcommunity.com/profiles/76561198974921306/" target="_blank" title="Steam"><i class="iconfont icon-steam" style="color: #4a7dbe;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item" style="height:auto;width:100%;padding:0px;"><div id="categoryBar"><ul class="categoryBar-list"><li class="categoryBar-list-item"><a class="categoryBar-list-link" href="/categories/Java/">Java</a><span class="categoryBar-list-count">7</span></li><li class="categoryBar-list-item"><a class="categoryBar-list-link" href="/categories/doc/">doc</a><span class="categoryBar-list-count">4</span></li><li class="categoryBar-list-item"><a class="categoryBar-list-link" href="/categories/starResource/">starResource</a><span class="categoryBar-list-count">1</span></li><li class="categoryBar-list-item"><a class="categoryBar-list-link" href="/categories/%E5%AE%9E%E6%88%98/">实战</a><span class="categoryBar-list-count">1</span></li></ul></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/05/04/JVM%20%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8%20%E4%B8%8E%20Java%E6%A8%A1%E5%9D%97%E5%8C%96%E7%B3%BB%E7%BB%9F/" title="JVM 类加载器 与 Java模块化系统"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://ruafafa-photobed.oss-cn-beijing.aliyuncs.com/illust_111121482_20230925_001424.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JVM 类加载器 与 Java模块化系统"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/05/04/JVM%20%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8%20%E4%B8%8E%20Java%E6%A8%A1%E5%9D%97%E5%8C%96%E7%B3%BB%E7%BB%9F/" title="JVM 类加载器 与 Java模块化系统">JVM 类加载器 与 Java模块化系统</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-04T15:19:39.316Z" title="发表于 2024-05-04 23:19:39">2024-05-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Java/">Java</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/JVM/">JVM</a></span></div><div class="content">
+Java 虚拟机设计团队有意把类加载阶段中的“通过一个类的全限定名来获取描述该 类的二进制字节流”这个动作放到 Java 虚拟机外部去实现，以便让应用程序自己决定如 何去获取所需的类。实现这个动作的代码被称为“类加载器”（Class Loader）。   // 类加载器是一段代码
+
+类与类加载器对于任意一个类，都必须由加载它的类加载器和这个类本身一起共同确立其在 Java 虚拟机中的唯一性，每一个类加载器，都拥有一个独立的类名称空间
+
+被不同的类加载器所加载的同一个.Class文件，在 Java 虚拟机中是两个互相独立的类，使用 instanceof 进行比较时 或 做对象所属类型检 查时，结果会返回 false
+双亲委派模型Java 虚拟机视角下的两种类加载器：
+123456flowchart LR    a[类加载器]    b1[启动类加载器]    b2[其他所有的类加载器]    a--ob1    a--ob2
+启动类加载器（Bootstrap ClassLoader）：使用 C++语言实现，是虚拟机自身的一部 分
+其他所有的类加载器：这些类加载器都由 Java 语言实现 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/05/04/JVM%20%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6/" title="JVM 虚拟机类加载机制"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=动漫综合3" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JVM 虚拟机类加载机制"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/05/04/JVM%20%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6/" title="JVM 虚拟机类加载机制">JVM 虚拟机类加载机制</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-04T15:19:39.316Z" title="发表于 2024-05-04 23:19:39">2024-05-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Java/">Java</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/JVM/">JVM</a></span></div><div class="content">
+在 Java 语言里面，类型的加载、 连接和初始化过程都是在程序运行期间完成的，这种策略让 Java 语言进行提前编译会面 临额外的困难，也会让类加载时稍微增加一些性能开销，但是却为 Java 应用提供了极高 的扩展性和灵活性，Java 天生可以动态扩展的语言特性就是依赖运行期动态加载和动态 连接这个特点实现的。
+—— 《深入理解 JVM 虚拟机 -周志明》
+
+类加载的时机七个阶段加载、验证、准备、解析、 初始化、使用和卸载七个阶段，其中验证、准 备、解析三个部分统称为连接
+
+特点开始时间顺序，但是进行过程和结束时间不一定顺序
+必须立即对类初始化的情况
+
+  六个情况
+  
+1) 
+    遇到 new、getstatic、putstatic 或 invokestatic 这四条字节码指令时，如果类型没
+有进行过初始化，则需要先触发其初始化阶段。能够生成这四条指令的典型
+Java 代码场景有：
+·使用 new 关键字实例化对象的时候。
+·读取或设置一个类型的静态字段（被 final 修饰、已在编译期把结果放入常量池的
+静态字段除外）的时候。
+·调用一个类型的静态方法的时候。
+2) 
+ ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/05/04/JVM%E2%80%94%E2%80%94%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F/" title="JVM 2.1内存区域"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=动漫综合4" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JVM 2.1内存区域"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/05/04/JVM%E2%80%94%E2%80%94%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F/" title="JVM 2.1内存区域">JVM 2.1内存区域</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-04T15:19:39.316Z" title="发表于 2024-05-04 23:19:39">2024-05-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Java/">Java</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/JVM/">JVM</a></span></div><div class="content">
+深入理解Java虚拟机：JVM高级特性与最佳实践（第3版）周志明 著 ——学习笔记
+
+
+运行时数据区域
+方法区
+​    堆
+​    虚拟机栈
+​    本地方法栈
+
+
+程序计数器(行号指示器)
+​    特点
+
+线程私有
+存值
+运行Java方法 -&gt; 虚拟机字节码指令地址
+执行Native方法 -&gt; 空 undefined
+
+
+
+虚拟机栈
+​    包含
+
+栈帧
+局部变量表
+基本数据类型
+对象引用
+returnsAddress类型
+操作数栈
+动态连接
+方法出口等
+
+
+​    特点
+
+线程私有
+生命周期与线程相同
+
+
+
+本地方法栈为虚拟机使用到的本地方法服务，其余同虚拟机栈
+堆
+​    特点
+线程共享
+存放对象实例
+垃圾收集器管理的内存区域
+逻辑上连续,内存上随意
+
+
+​    注意
+Java对象实例都分配在堆上不是绝对的
+
+
+
+方法区
+​    特点
+
+线程共享
+存储已被虚拟机加载的类型信息、常量、静态变量、即时编译器编译后的代码缓存等数据
+JDK8 放弃永久代，使用元空间
+
+
+
+运行时常量池
+包含
+常量池表
+
+
+特点    
+存放编译期生成的各种字面量与符号引用 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/05/04/JVM%E2%80%94%E2%80%94%E8%B5%B0%E8%BF%91Java/" title="JVM 1.走近Java"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=动漫综合5" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JVM 1.走近Java"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/05/04/JVM%E2%80%94%E2%80%94%E8%B5%B0%E8%BF%91Java/" title="JVM 1.走近Java">JVM 1.走近Java</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-04T15:19:39.316Z" title="发表于 2024-05-04 23:19:39">2024-05-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Java/">Java</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/JVM/">JVM</a></span></div><div class="content">
+深入理解Java虚拟机：JVM高级特性与最佳实践（第3版）周志明 著 ——学习笔记
+
+Java不仅仅是一门编程语言，它还是一个由一系列计算机软件和规范组成的技术体系，这个技术 体系提供了完整的用于软件开发和跨平台部署的支持环境，并广泛应用于嵌入式系统、移动终端、企 业服务器、大型机等多种场合
+Java技术体系Java的技术体系主要由支撑Java程序运行的 虚拟机、提供各开发领域接口支持的Java类库、Java编程语言及许许多多的第三方Java框架（如 Spring、MyBatis等）构成。
+
+
+:::SUMMARY:::
+Java技术体系
+
+虚拟机
+类库
+编程语言
+开发框架
+
+扩展一般以javax.作为包名，而以java.为包名的包都是Java SE API的核心包
+
+Java演变
+  绿色计划（Green Project）:开发一种能够在各种消费性电子产品上运行的程序架构 -> Oak 诞生 -> 1995年互联网潮流的兴起 -> Oak 变 Java1.0 : “Write Once，Run Anywhere” -> 1996年JDK 1.0发布（代表技术包括：Java虚拟机、A ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/05/04/hello-world/" title="Hello World"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=动漫综合1" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/05/04/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-04T15:19:39.316Z" title="发表于 2024-05-04 23:19:39">2024-05-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Java/">Java</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/doc/">doc</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Java/">Java</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/JVM/">JVM</a></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+More info: Writing
+Run server1$ hexo server
+More info: Server
+Generate static files1$ hexo generate
+More info: Generating
+Deploy to remote sites1$ hexo deploy
+More info: Deployment
+
+TLDR-hello-world
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/05/04/windterm/" title="免费开源超好用的终端工具！——WindTerm"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://ruafafa-photobed.oss-cn-beijing.aliyuncs.com/202312261646387.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="免费开源超好用的终端工具！——WindTerm"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/05/04/windterm/" title="免费开源超好用的终端工具！——WindTerm">免费开源超好用的终端工具！——WindTerm</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-04T15:19:39.316Z" title="发表于 2024-05-04 23:19:39">2024-05-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/doc/">doc</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/starResource/">starResource</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%AE%9D%E8%97%8F%E8%B5%84%E6%BA%90/">宝藏资源</a></span></div><div class="content">
+⭐Github：kingToolbox/WindTerm: A professional cross-platform SSH/Sftp/Shell/Telnet/Serial terminal. (github.com)
+
+今天打开FinalShell，发现更新后收费了（悲），于是上网搜寻，发现了一款免费开源的终端工具——WindTerm。
+WindTerm 是一款开源的高性能终端模拟器，支持跨平台运行。它具有以下特点：==支持 SSH 和 SFTP 连接远程服务器，支持文件传输和端口转发、支持命令提示和补全，支持折叠显示结果，支持自动复制选中内容、支持多种主题切换，支持窗格调整，支持锁屏功能、不需要安装，解压即可使用。==
+界面WindTerm 有一个独特的布局，类似于一个 IDE。左侧包含资源管理器和文件管理器，中间是一个 zsh 终端窗口，右侧是会话和命令历史窗口，底部是发送和 shell 窗口。WindTerm 支持三种主题切换：亮白模式、暗黑模式和黑白相间模式。可以在设置中选择喜欢的主题。
+连接WindTerm 支持 SSH 和 SFTP 连接远程服务器，支持文件传输和端 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/05/04/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84Aliyun%20Linux%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E6%88%98-1.%E5%AE%89%E8%A3%85Docker%E3%80%81Nacos/" title="从零开始的微服务实战-1. Nacos部署"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://ruafafa-photobed.oss-cn-beijing.aliyuncs.com/202312261919952.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="从零开始的微服务实战-1. Nacos部署"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/05/04/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84Aliyun%20Linux%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E6%88%98-1.%E5%AE%89%E8%A3%85Docker%E3%80%81Nacos/" title="从零开始的微服务实战-1. Nacos部署">从零开始的微服务实战-1. Nacos部署</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-04T15:19:39.316Z" title="发表于 2024-05-04 23:19:39">2024-05-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AE%9E%E6%88%98/">实战</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Nacos/">Nacos</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Docker/">Docker</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Aliyun-%E6%9C%8D%E5%8A%A1%E5%99%A8/">Aliyun 服务器</a></span></div><div class="content">在Alibaba Cloud Linux3 上部署 Docker、Nacos安装Docker官方首推的安装方式是安装Docker Desktop，但是我们只希望安装 Docker Engine， Docker Engine 和 Docker Desktop区别见。FAQs for Docker Desktop for Linux | Docker Docs —- 适用于 Linux 的 Docker Desktop 常见问题解答 |Docker 文档
+我们通过 Linux 的包管理工具安装，这里笔者使用的系统是 Alibaba Cloud Linux 3.2104 LTS 64位，查阅和发现建议使用新一代的rpm软件包管理器安装社区版Docker(docker-ce)^1^，通过工具安装即可
+123456789101112# 安装 dnfyum -y install dnf# 设置 docker-ce dnf 源dnf config-manager --add-repo=https://mirrors.aliyun.com/docker-ce/linux/centos/docker-c ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/05/04/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AD%97%E8%8A%82%E7%A0%81%E6%89%A7%E8%A1%8C%E5%BC%95%E6%93%8E/" title="JVM 虚拟机字节码执行引擎"><img class="post-bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=动漫综合6" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JVM 虚拟机字节码执行引擎"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/05/04/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AD%97%E8%8A%82%E7%A0%81%E6%89%A7%E8%A1%8C%E5%BC%95%E6%93%8E/" title="JVM 虚拟机字节码执行引擎">JVM 虚拟机字节码执行引擎</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-04T15:19:39.316Z" title="发表于 2024-05-04 23:19:39">2024-05-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Java/">Java</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/JVM/">JVM</a></span></div><div class="content">运行时栈帧结构Java 虚拟机以方法作为最基本的执行单元
+而  “栈帧”（Stack Frame）是用于支持虚 拟机进行方法调用和方法执行背后的数据结构它也是虚拟机运行时数据区中的虚拟机栈（Virtual Machine Stack）[1]的栈元素
+栈帧存储了方法的==局部变量表、操作数栈、动态连接和方法返回地址==等信息
+
+
+局部变量表定义是一组变量值的存储空间，用于存放方法参数和方法内部定义的局部变量
+容量局部变量表的容量以变量槽（Variable Slot）为最小单位、
+开发影响局部变量不像前面介 绍的类变量那样存在“准备阶段”，如果一个局 部变量定义了但没有赋初始值，那它是完全不能使用的
+操作数栈LIDO 后入先出的栈
+当一个方法刚刚开始执行的时候，这个方法的操作数栈是空的，在方法的执行过程 中，会有各种字节码指令往操作数栈中写入和提取内容，也就是出栈和入栈操作
+操作数栈中元素的数据类型必须与字节码指令的序列严格匹配，在编译程序代码的 时候，编译器必须要严格保证这一点，在类校验阶段的数据流分析中还要再次验证这一 点
+在大多虚拟机的实现里都会进行一些优化处理，令两个栈帧出现一部分 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/05/04/%E6%8A%A2%E7%A5%A8%E9%83%A8%E5%88%86%E8%AE%BE%E8%AE%A1/" title="云昭云耀——抢票服务高并发场景下的重构">云昭云耀——抢票服务高并发场景下的重构</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-05-04T15:19:39.316Z" title="发表于 2024-05-04 23:19:39">2024-05-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Java/">Java</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Jmeter/">Jmeter</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E9%AB%98%E5%B9%B6%E5%8F%91/">高并发</a></span></div><div class="content">最近在重构云昭云耀项目时，又遇到了一个有趣的问题，就是抢票服务在高并发场景下的问题。在这篇文章中，我将记录一下我是如何重构抢票服务的，以应对高并发场景下的问题。
+抢票部分重构先来看一看之前的业务代码123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132133134135136137138139140141142143144145146147148package com.yundingshuyuan.recruit.service;// import ... @Slf4j@S ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/04/02/Lua%20%E8%84%9A%E6%9C%AC%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/" title="Lua脚本快速入门">Lua脚本快速入门</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T08:46:38.000Z" title="发表于 2024-04-02 16:46:38">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/doc/">doc</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%AF%AD%E8%A8%80/">语言</a></span></div><div class="content">[TOC]
+背景什么是Lua脚本？Lua 是一种轻量小巧的脚本语言，用标准C语言编写并以源代码形式开放， 其设计目的是为了嵌入应用程序中，从而为应用程序提供灵活的扩展和定制功能。
+我为什么学习Lua脚本？为了更好的使用Redis数据库，你需要了解Lua脚本。Redis是一个开源的NoSQL数据库，它提供了低延迟的内存存储功能，非常适合用于应用缓存、消息传递等多种操作。Redis使用Lua脚本来让你能够以高效的方式完成更复杂的任务。脚本逻辑在数据库服务器上执行，这不仅可以重用，而且通常可以提高性能。Redis是一个开源的NoSQL数据库，它提供了低延迟的内存存储功能，非常适合用于应用缓存、消息传递等多种操作。Redis使用Lua脚本来让你能够以高效的方式完成更复杂的任务。脚本逻辑在数据库服务器上执行，这不仅可以重用，而且通常可以提高性能。Lua脚本在Redis中的使用提供了以下优势：
+
+执行效率：任务直接在数据库服务器上执行，通常可以显著提高性能。
+逻辑集中：逻辑直接存在于数据库服务器上，这对于跨多个应用程序使用的逻辑非常有用。
+原子性执行：服务器在脚本运行时阻止其他操作，确保了操作的原 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="card-info-avatar"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://q.qlogo.cn/headimg_dl?dst_uin=1540588520&amp;spec=640&amp;img_type=jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-status-box"><div class="author-status"><g-emoji class="g-emoji" alias="palm_tree" fallback-src="https://lskypro.acozycotage.net/LightPicture/2022/12/fe1dc0402e623096.jpg">🐟 </g-emoji><span>认真摸鱼中</span></div></div></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">9</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Ruafafa"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Ruafafa" target="_blank" title="Github"><i class="iconfont icon-github" style="color: #24292e;"></i></a><a class="social-icon" href="https://wpa.qq.com/msgrd?v=3&amp;uin=1540588520&amp;site=qq&amp;menu=yes" target="_blank" title="QQ"><i class="iconfont icon-QQ" style="color: #4a7dbe;"></i></a><a class="social-icon" href="mailto:wangyisen6170@gmail.com" target="_blank" title="Email"><i class="iconfont icon--email" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://space.bilibili.com/262427978" target="_blank" title="BiliBili"><i class="iconfont icon-icon_bilibili" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://steamcommunity.com/profiles/76561198974921306/" target="_blank" title="Steam"><i class="iconfont icon-steam" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">Javaer</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="iconfont icon-shijian"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/05/04/JVM%20%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8%20%E4%B8%8E%20Java%E6%A8%A1%E5%9D%97%E5%8C%96%E7%B3%BB%E7%BB%9F/" title="JVM 类加载器 与 Java模块化系统">JVM 类加载器 与 Java模块化系统</a><time datetime="2024-05-04T15:19:39.316Z" title="发表于 2024-05-04 23:19:39">2024-05-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/05/04/JVM%20%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6/" title="JVM 虚拟机类加载机制">JVM 虚拟机类加载机制</a><time datetime="2024-05-04T15:19:39.316Z" title="发表于 2024-05-04 23:19:39">2024-05-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/05/04/JVM%E2%80%94%E2%80%94%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F/" title="JVM 2.1内存区域">JVM 2.1内存区域</a><time datetime="2024-05-04T15:19:39.316Z" title="发表于 2024-05-04 23:19:39">2024-05-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/05/04/JVM%E2%80%94%E2%80%94%E8%B5%B0%E8%BF%91Java/" title="JVM 1.走近Java">JVM 1.走近Java</a><time datetime="2024-05-04T15:19:39.316Z" title="发表于 2024-05-04 23:19:39">2024-05-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/05/04/hello-world/" title="Hello World">Hello World</a><time datetime="2024-05-04T15:19:39.316Z" title="发表于 2024-05-04 23:19:39">2024-05-04</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Java/"><span class="card-category-list-name">Java</span><span class="card-category-list-count">7</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/doc/"><span class="card-category-list-name">doc</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/starResource/"><span class="card-category-list-name">starResource</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AE%9E%E6%88%98/"><span class="card-category-list-name">实战</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="iconfont icon-biaoqian"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Jmeter/" style="font-size: 1.1em; color: #999">Jmeter</a> <a href="/tags/Java/" style="font-size: 1.5em; color: #99a9bf">Java</a> <a href="/tags/Docker/" style="font-size: 1.1em; color: #999">Docker</a> <a href="/tags/%E8%AF%AD%E8%A8%80/" style="font-size: 1.23em; color: #999ea6">语言</a> <a href="/tags/%E5%AE%9D%E8%97%8F%E8%B5%84%E6%BA%90/" style="font-size: 1.1em; color: #999">宝藏资源</a> <a href="/tags/JVM/" style="font-size: 1.37em; color: #99a4b2">JVM</a> <a href="/tags/Aliyun-%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 1.1em; color: #999">Aliyun 服务器</a> <a href="/tags/Nacos/" style="font-size: 1.1em; color: #999">Nacos</a> <a href="/tags/%E9%AB%98%E5%B9%B6%E5%8F%91/" style="font-size: 1.1em; color: #999">高并发</a></div></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">11</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2022-10-01T00:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-05-04T15:19:59.341Z"><i class="iconfont icon-shijian"></i></div></div></div></div></div></div></main><footer id="footer" style="background: transparent"><div id="footer-wrap"><div id="ft"><div class="ft-item-1"><div class="t-top"><div class="t-t-l"><p class="ft-t t-l-t">格言🧬</p><div class="bg-ad"><div>再看看那个光点，它就在这里，这是家园，这是我们 —— 你所爱的每一个人，你认识的一个人，你听说过的每一个人，曾经有过的每一个人，都在它上面度过他们的一生✨</div><div class="btn-xz-box"><a class="btn-xz" target="_blank" rel="noopener" href="https://stellarium.org/">点击开启星辰之旅</a></div></div></div><div class="t-t-r"><p class="ft-t t-l-t">猜你想看💡</p><ul class="ft-links"><li><a href="/box/nav/">囤囤</a></li><li><a href="/social/link/">我的朋友</a><a href="/comments/">留点什么</a></li><li><a href="/personal/about/">关于作者</a><a href="/archives/">文章归档</a></li><li><a href="/categories/">文章分类</a><a href="/tags/">文章标签</a></li><li><a href="/box/Gallery/">我的画廊</a><a href="/personal/bb/">我的profile</a></li><li><a href="/site/census/">网站统计</a></li></ul></div></div></div><div class="ft-item-2"><p class="ft-t">推荐友链⌛</p><div class="ft-img-group"><div class="img-group-item"><a target="_blank" rel="noopener" href="https://www.fomal.cc/" title="Fomalhaut🥝"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/60e5d4e39da7c077.webp" alt=""/></a></div><div class="img-group-item"><a target="_blank" rel="noopener" href="https://tzy1997.com/" title="唐志远の博客"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/4ab83cdce942463b.jpg" alt=""/></a></div><div class="img-group-item"><a target="_blank" rel="noopener" href="https://akilar.top/" title="Akilarの糖果屋"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/6bf1ed05796db59c.jpg" alt=""/></a></div><div class="img-group-item"><a target="_blank" rel="noopener" href="https://butterfly.js.org/" title="Butterfly"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/64cc6a7d508026e1.png" alt=""/></a></div><div class="img-group-item"><a target="_blank" rel="noopener" href="https://anzhiy.cn/" title="安知鱼"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/1b33fef8f5fb7e63.jpg" alt=""/></a></div><div class="img-group-item"><a target="_blank" rel="noopener" href="https://www.acozycotage.net/" title="Acozycotage"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/6a6fe6ebfd19c465.jpg" alt=""/></a></div><div class="img-group-item"><a href="javascript:void(0)" title="广告位招租"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp" alt=""/></a></div></div></div></div><div class="copyright"><span><b>&copy;2022 - 2024</b></span><span><b>&nbsp;&nbsp;By Ruafafa</b></span></div><div class="footer_custom_text"><a target="_blank" rel="noopener" href="http://beian.miit.gov.cn"><span>晋ICP备2024029647号-1</span></a></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" title="博客框架为Hexo_v6.3.0"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sourcebucket.s3.ladydaily.com/badge/Frame-Hexo-blue.svg" alt=""/></a><a class="github-badge" target="_blank" href="https://butterfly.js.org/" style="margin-inline:5px" title="主题版本Butterfly_v4.3.1"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://sourcebucket.s3.ladydaily.com/badge/Theme-Butterfly-6513df.svg" alt=""/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" title="本网站源码由Github提供存储仓库"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src=" https://sourcebucket.s3.ladydaily.com/badge/Source-Github-d021d6.svg" alt=""/></a></p></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="https://cdn.jsdelivr.net/npm/hexo-theme-butterfly/source/js/utils.min.js"></script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-butterfly/source/js/main.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+</script><script>function subtitleType () {
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      if (true) {
+        const from = '出自 ' + data.from
+        const sub = []
+        sub.unshift(data.hitokoto, from)
+        typedJSFn.init(sub)
+      } else {
+        document.getElementById('subtitle').textContent = data.hitokoto
+      }
+    })
+}
+typedJSFn.run(subtitleType)
+</script><script>(() => {
+  const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaid.length === 0) return
+  const runMermaid = () => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    Array.from($mermaid).forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+      const mermaidID = 'mermaid-' + index
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+
+      const renderV10 = () => {
+        renderFn.then(({svg}) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svg)
+        })
+      }
+
+      const renderV9 = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      typeof renderFn === 'string' ? renderV9(renderFn) : renderV10()
+    })
+  }
+
+  const loadMermaid = () => {
+    window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+  }
+
+  btf.addGlobalFn('themeChange', runMermaid, 'mermaid')
+
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script></div><div class="aplayer no-destroy" data-id="8833010059" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted style="z-index:3;"></div><link rel="stylesheet" href="/css/aplayer.css"><script src="/js/music.js"></script><script src="/js/play.js"></script><script defer data-pjax src="/js/scroll.js"></script><script src="https://cdn.jsdelivr.net/gh/Garen-Wang/live2d-moc3@vv0.1.1/js/live2dcubismcore.js"></script><script src="https://cdn.jsdelivr.net/gh/Garen-Wang/live2d-moc3@vv0.1.1/js/bundle.js"></script><canvas id="live2d" width="600" height="600" class="live2d" style="position:fixed;opacity:1; left:-110px; bottom:-360px; z-index:2; pointer-events:none;"></canvas><script src="/js/live2d.js"></script><script defer type="text/javascript" src="https://cdn1.tianli0.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script><script defer src="/js/lunar.js"></script><script defer src="/js/day.js"></script><script defer src="/js/runtime.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener
+  btf.removeGlobalFnEvent('pjax')
+  btf.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__slideInUp');
+    arr[i].setAttribute('data-wow-duration', '2s');
+    arr[i].setAttribute('data-wow-delay', '1s');
+    arr[i].setAttribute('data-wow-offset', '100');
+    arr[i].setAttribute('data-wow-iteration', '2');
+  }</script><script async="async">var arr = document.getElementsByClassName('card-widget');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><!-- hexo injector body_end end --></body></html>
